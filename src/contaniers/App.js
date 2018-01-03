@@ -45,7 +45,7 @@ class App extends React.Component {
       userHasAuthenticated: this.userHasAuthenticated
     };
     return (
-      !this.state.isAuthenticating &&
+      // !this.state.isAuthenticating &&
       <div className="App container">
         <Routes childProps={childProps} />
       </div>
